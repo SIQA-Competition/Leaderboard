@@ -33,6 +33,7 @@ jobs:
         env:
           DECRYPT_KEY: ${{ secrets.ANSWERS_DECRYPT_KEY }}
         run: |
+          echo "Key length: ${#DECRYPT_KEY}"
           # 解密
           openssl enc -d -aes-256-cbc -in answer.tar.gz.enc -out answer.tar.gz -k "$DECRYPT_KEY"
           # 解压到 answer/ 目录
