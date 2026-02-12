@@ -26,20 +26,13 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install scipy
+          pip install scipy cryptography
 
       # ============ 关键：解密测试集 ============
-      - name: Decrypt test set answer
+      - name: Decrypt test set answers
         env:
-          DECRYPT_KEY: ${{ secrets.ANSWERS_DECRYPT_KEY }}
-        run: |
-          echo "Key length: ${#DECRYPT_KEY}"
-          # 解密
-          openssl enc -d -aes-256-cbc -in answer.tar.gz.enc -out answer.tar.gz -k "$DECRYPT_KEY"
-          # 解压到 answer/ 目录
-          tar -xzf answer.tar.gz
-          # 验证文件是否存在
-          ls -l answer/
+          ANSWERS_DECRYPT_KEY: ${{ secrets.ANSWERS_DECRYPT_KEY }}
+        run: python scripts/decrypt_answers.py
 
       # ============ 运行你的评分脚本 ============
       - name: Generate leaderboard
