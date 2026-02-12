@@ -31,14 +31,39 @@ def decrypt_and_extract(password: str, enc_file: str = "answer.tar.gz.enc", out_
     with open(tar_path, "wb") as f:
         f.write(decrypted_data)
 
-    # 安全解压（防止路径穿越）
+    # 安全解压
     os.makedirs(out_dir, exist_ok=True)
-    with tarfile.open(tar_path) as tar:
-        tar.extractall(path=out_dir, filter="data")  # Python 3.12+ 安全模式
-        # 如果你用的是旧版 Python，用下面这行替代：
-        # tar.extractall(path=out_dir)
 
-    print(f"✅ Answers decrypted and extracted to '{out_dir}/'")
+    # 兼容旧版 Python（GitHub Actions 的 Ubuntu 可能是 Python 3.10）
+    with tarfile.open(tar_path) as tar:
+        try:
+            # Python 3.12+
+            tar.extractall(path=out_dir, filter="data")
+        except TypeError:
+            # Python < 3.12 不支持 filter
+            tar.extractall(path=out_dir)
+
+    # ✅ 关键：打印实际解压出的所有文件路径
+    print(f"✅ Files extracted to '{os.path.abspath(out_dir)}/':")
+    found_files = []
+    for root, dirs, files in os.walk(out_dir):
+        for file in files:
+            full_path = os.path.join(root, file)
+            rel_path = os.path.relpath(full_path, ".")
+            print(f"  - {rel_path}")
+            found_files.append(rel_path)
+
+    if not found_files:
+        print("  ⚠️  No files found! Check your .tar.gz content.")
+    else:
+        # 特别检查关键文件是否存在
+        expected = ["answer/answer-u.json", "answer/answer-s.json"]
+        for e in expected:
+            if any(f == e for f in found_files):
+                print(f"  ✅ Found expected file: {e}")
+            else:
+                print(f"  ❌ Missing expected file: {e}")
+
     return out_dir
 
 
