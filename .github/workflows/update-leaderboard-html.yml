@@ -34,7 +34,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install scipy numpy
+          pip install scipy numpy cryptography
 
       # ============ 关键：解密测试集 ============
       - name: Decrypt test set answers
