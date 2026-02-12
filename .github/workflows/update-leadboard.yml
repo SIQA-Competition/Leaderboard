@@ -2,7 +2,7 @@ name: Update SIQA Leaderboard
 
 on:
   push:
-    branches: [main]
+    branches: [master]
     paths:
       - 'submissions/**/*'
       - '!README.md'
