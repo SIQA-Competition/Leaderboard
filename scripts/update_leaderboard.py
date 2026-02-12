@@ -147,7 +147,7 @@ def main():
         combined = (u_score + s_score) / 2 if (u_score > 0 or s_score > 0) else 0.0
         overall_list.append({
             "team": team,
-            "method": scores["method"] or "–",
+            "method": scores["method"] or "-",
             "U": u_score,
             "S": s_score,
             "Combined": round(combined, 2)
@@ -156,13 +156,13 @@ def main():
 
     # --- 提取 U 和 S 榜单 ---
     u_teams = [
-        {"team": team, "method": data["method"] or "–", **data["U"]}
+        {"team": team, "method": data["method"] or "-", **data["U"]}
         for team, data in teams.items() if data["U"]
     ]
     u_teams.sort(key=lambda x: x["score"], reverse=True)
 
     s_teams = [
-        {"team": team, "method": data["method"] or "–", **data["S"]}
+        {"team": team, "method": data["method"] or "-", **data["S"]}
         for team, data in teams.items() if data["S"]
     ]
     s_teams.sort(key=lambda x: x["score"], reverse=True)
@@ -189,9 +189,9 @@ def main():
         "|:----:|:-----|:-------|:------:|:------:|:--------:|"
     ])
     for i, e in enumerate(overall_list, 1):
-        u_str = f"{e['U']:.2f}" if e['U'] > 0 else "–"
-        s_str = f"{e['S']:.2f}" if e['S'] > 0 else "–"
-        comb_str = f"{e['Combined']:.2f}" if e['Combined'] > 0 else "–"
+        u_str = f"{e['U']:.2f}" if e['U'] > 0 else "-"
+        s_str = f"{e['S']:.2f}" if e['S'] > 0 else "-"
+        comb_str = f"{e['Combined']:.2f}" if e['Combined'] > 0 else "-"
         md_lines.append(f"| {i} | {e['team']} | {e['method']} | {u_str} | {s_str} | {comb_str} |")
     md_lines.append("")
 
