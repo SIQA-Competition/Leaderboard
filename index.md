@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: leaderboard
 title: SIQA Leaderboard
 permalink: /
 ---
@@ -24,4 +24,4 @@ permalink: /
 |:----:|:-----|:-------|:------------------------:|:-----------------------:|:-----------:|
 | 1 | Baseline | gpt-4o | 0.7071 / 0.7068 | 0.8366 / 0.8521 | 77.57 |
 
-> 🕒 Last updated: 2026-02-12 04:08 UTC
+> 🕒 Last updated: 2026-02-12 05:52 UTC
