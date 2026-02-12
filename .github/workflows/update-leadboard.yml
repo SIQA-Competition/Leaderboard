@@ -1,0 +1,56 @@
+name: Update SIQA Leaderboard
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'submissions/*.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install scipy
+
+      # ============ 关键：解密测试集 ============
+      - name: Decrypt test set answer
+        env:
+          DECRYPT_KEY: ${{ secrets.ANSWERS_DECRYPT_KEY }}
+        run: |
+          # 解密
+          openssl enc -d -aes-256-cbc -in answer.tar.gz.enc -out answer.tar.gz -k "$DECRYPT_KEY"
+          # 解压到 answer/ 目录
+          tar -xzf answer.tar.gz
+          # 验证文件是否存在
+          ls -l answer/
+
+      # ============ 运行你的评分脚本 ============
+      - name: Generate leaderboard
+        run: python scripts/update_leaderboard.py
+
+      # ============ 提交更新后的页面 ============
+      - name: Commit and push leaderboard
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add index.md
+          if ! git diff-index --quiet HEAD --; then
+            git commit -m "🤖 Auto-update SIQA leaderboard [$(date -u)]"
+            git push
+          else
+            echo "No changes to commit."
+          fi
