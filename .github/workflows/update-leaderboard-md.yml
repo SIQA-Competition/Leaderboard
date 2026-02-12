@@ -36,7 +36,7 @@ jobs:
 
       # ============ 运行你的评分脚本 ============
       - name: Generate leaderboard
-        run: python scripts/update_leaderboard.py
+        run: python scripts/update_leaderboard-md.py
 
       # ============ 提交更新后的页面 ============
       - name: Commit and push leaderboard
