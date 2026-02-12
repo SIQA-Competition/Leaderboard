@@ -170,7 +170,7 @@ def main():
     # --- 生成单一页面 Markdown ---
     md_lines = [
         "---",
-        "layout: default",
+        "layout: leaderboard",
         "title: SIQA Leaderboard",
         "permalink: /",
         "---",
