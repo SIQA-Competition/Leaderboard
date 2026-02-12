@@ -4,6 +4,10 @@ name: Generate and Deploy SIQA Leaderboard
 on:
   push:
     branches: ["master"]  # 或 "main"，根据你的默认分支调整
+    paths:
+      - 'submissions/**/*'
+      - '!README.md'
+      - '!LICENSE'
   workflow_dispatch:      # 允许手动触发
 
 permissions:
@@ -31,6 +35,12 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install scipy numpy
+
+      # ============ 关键：解密测试集 ============
+      - name: Decrypt test set answers
+        env:
+          ANSWERS_DECRYPT_KEY: ${{ secrets.ANSWERS_DECRYPT_KEY }}
+        run: python scripts/decrypt_answers.py
 
       - name: Generate leaderboard HTML
         run: python scripts/update_leaderboard-html.py
