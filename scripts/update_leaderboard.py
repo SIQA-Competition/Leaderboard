@@ -197,7 +197,7 @@ def main():
 
     # === SIQA-U ===
     md_lines.extend([
-        "## 🧠 SIQA-U Leaderboard (Understanding)",
+        "## 💡 SIQA-U Leaderboard (Understanding)",
         "| Rank | Team | Method | Yes/No ACC | What ACC | How ACC | Final Score |",
         "|:----:|:-----|:-------|:----------:|:--------:|:-------:|:-----------:|"
     ])
@@ -211,7 +211,7 @@ def main():
 
     # === SIQA-S ===
     md_lines.extend([
-        "## 📊 SIQA-S Leaderboard (Scoring)",
+        "## 📈 SIQA-S Leaderboard (Scoring)",
         "| Rank | Team | Method | Perception (SRCC / PLCC) | Knowledge (SRCC / PLCC) | Final Score |",
         "|:----:|:-----|:-------|:------------------------:|:-----------------------:|:-----------:|"
     ])
