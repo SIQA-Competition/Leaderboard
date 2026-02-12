@@ -172,7 +172,7 @@ def main():
         "---",
         "layout: leaderboard",
         "title: SIQA Leaderboard",
-        "permalink: /",
+        "#permalink: /",
         "---",
         "",
         "# 🏆 SIQA Competition Leaderboard",
