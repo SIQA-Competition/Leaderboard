@@ -3,12 +3,16 @@ name: Generate and Deploy SIQA Leaderboard
 
 on:
   push:
-    branches: ["master"]  # 或 "main"，根据你的默认分支调整
+    branches: ["master"]
     paths:
-      - 'submissions/**/*'
-      - '!README.md'
-      - '!LICENSE'
-  workflow_dispatch:      # 允许手动触发
+      - 'submissions/**'
+      - 'scripts/**'
+      - '.github/workflows/**'
+    paths-ignore:
+      - '**/*.md'
+      - 'LICENSE'
+      - 'README.md'
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -26,17 +30,32 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Validate decryption key
+        run: |
+          if [ -z "${{ secrets.ANSWERS_DECRYPT_KEY }}" ]; then
+            echo "❌ Secret ANSWERS_DECRYPT_KEY is missing! Please set it in repo Settings > Secrets."
+            exit 1
+          fi
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
+      # Optional: cache dependencies
+      - name: Cache Python packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install scipy numpy cryptography
+          pip install -r requirements.txt
 
-      # ============ 关键：解密测试集 ============
       - name: Decrypt test set answers
         env:
           ANSWERS_DECRYPT_KEY: ${{ secrets.ANSWERS_DECRYPT_KEY }}
@@ -45,10 +64,18 @@ jobs:
       - name: Generate leaderboard HTML
         run: python scripts/update_leaderboard-html.py
 
+      - name: Verify index.html exists
+        run: |
+          if [ ! -f index.html ]; then
+            echo "❌ index.html was not generated!"
+            exit 1
+          fi
+          echo "✅ Generated index.html ($(wc -c < index.html) bytes)"
+
       - name: Upload artifact for deployment
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./index.html
+          path: .   # ← 关键：传目录，不是文件！
 
   deploy:
     environment:
