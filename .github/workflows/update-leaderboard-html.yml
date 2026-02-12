@@ -1,4 +1,3 @@
-# .github/workflows/deploy.yml
 name: Generate and Deploy SIQA Leaderboard
 
 on:
@@ -8,10 +7,6 @@ on:
       - 'submissions/**'
       - 'scripts/**'
       - '.github/workflows/**'
-    paths-ignore:
-      - '**/*.md'
-      - 'LICENSE'
-      - 'README.md'
   workflow_dispatch:
 
 permissions:
