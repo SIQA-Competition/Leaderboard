@@ -1,0 +1,5607 @@
+{
+  "team": "Baseline - gpt-4o",
+  "method": "gpt-4o",
+  "track": "U",
+  "predictions": [
+    {
+      "id": 1,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 2,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 3,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 4,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 5,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 6,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 7,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 8,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 9,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 10,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 11,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 12,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 13,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 14,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 15,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 16,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 17,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 18,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 19,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 20,
+      "type": "yes-or-no",
+      "precision": "C"
+    },
+    {
+      "id": 21,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 22,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 23,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 24,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 25,
+      "type": "yes-or-no",
+      "precision": "C"
+    },
+    {
+      "id": 26,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 27,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 28,
+      "type": "yes-or-no",
+      "precision": "C"
+    },
+    {
+      "id": 29,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 30,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 31,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 32,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 33,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 34,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 35,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 36,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 37,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 38,
+      "type": "yes-or-no",
+      "precision": "I'm sorry, I can't assist with that."
+    },
+    {
+      "id": 39,
+      "type": "yes-or-no",
+      "precision": "C"
+    },
+    {
+      "id": 40,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 41,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 42,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 43,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 44,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 45,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 46,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 47,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 48,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 49,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 50,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 51,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 52,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 53,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 54,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 55,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 56,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 57,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 58,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 59,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 60,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 61,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 62,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 63,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 64,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 65,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 66,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 67,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 68,
+      "type": "yes-or-no",
+      "precision": "C"
+    },
+    {
+      "id": 69,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 70,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 71,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 72,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 73,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 74,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 75,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 76,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 77,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 78,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 79,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 80,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 81,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 82,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 83,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 84,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 85,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 86,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 87,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 88,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 89,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 90,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 91,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 92,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 93,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 94,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 95,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 96,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 97,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 98,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 99,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 100,
+      "type": "yes-or-no",
+      "precision": "C"
+    },
+    {
+      "id": 101,
+      "type": "yes-or-no",
+      "precision": "C"
+    },
+    {
+      "id": 102,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 103,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 104,
+      "type": "yes-or-no",
+      "precision": "C"
+    },
+    {
+      "id": 105,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 106,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 107,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 108,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 109,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 110,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 111,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 112,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 113,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 114,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 115,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 116,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 117,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 118,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 119,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 120,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 121,
+      "type": "yes-or-no",
+      "precision": "I can't answer the question based on the image provided."
+    },
+    {
+      "id": 122,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 123,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 124,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 125,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 126,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 127,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 128,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 129,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 130,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 131,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 132,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 133,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 134,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 135,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 136,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 137,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 138,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 139,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 140,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 141,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 142,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 143,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 144,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 145,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 146,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 147,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 148,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 149,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 150,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 151,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 152,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 153,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 154,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 155,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 156,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 157,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 158,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 159,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 160,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 161,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 162,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 163,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 164,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 165,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 166,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 167,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 168,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 169,
+      "type": "yes-or-no",
+      "precision": "C"
+    },
+    {
+      "id": 170,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 171,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 172,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 173,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 174,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 175,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 176,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 177,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 178,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 179,
+      "type": "yes-or-no",
+      "precision": "I'm sorry, I can't assist with that."
+    },
+    {
+      "id": 180,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 181,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 182,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 183,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 184,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 185,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 186,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 187,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 188,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 189,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 190,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 191,
+      "type": "yes-or-no",
+      "precision": "I'm sorry, I can't determine that from the image."
+    },
+    {
+      "id": 192,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 193,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 194,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 195,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 196,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 197,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 198,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 199,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 200,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 201,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 202,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 203,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 204,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 205,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 206,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 207,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 208,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 209,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 210,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 211,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 212,
+      "type": "yes-or-no",
+      "precision": "I'm sorry, I can't determine the answer without seeing the image."
+    },
+    {
+      "id": 213,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 214,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 215,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 216,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 217,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 218,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 219,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 220,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 221,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 222,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 223,
+      "type": "yes-or-no",
+      "precision": "I can't answer the question based on the image provided."
+    },
+    {
+      "id": 224,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 225,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 226,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 227,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 228,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 229,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 230,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 231,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 232,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 233,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 234,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 235,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 236,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 237,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 238,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 239,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 240,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 241,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 242,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 243,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 244,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 245,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 246,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 247,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 248,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 249,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 250,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 251,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 252,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 253,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 254,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 255,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 256,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 257,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 258,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 259,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 260,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 261,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 262,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 263,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 264,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 265,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 266,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 267,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 268,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 269,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 270,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 271,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 272,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 273,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 274,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 275,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 276,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 277,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 278,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 279,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 280,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 281,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 282,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 283,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 284,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 285,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 286,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 287,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 288,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 289,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 290,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 291,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 292,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 293,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 294,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 295,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 296,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 297,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 298,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 299,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 300,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 301,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 302,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 303,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 304,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 305,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 306,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 307,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 308,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 309,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 310,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 311,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 312,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 313,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 314,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 315,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 316,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 317,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 318,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 319,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 320,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 321,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 322,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 323,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 324,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 325,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 326,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 327,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 328,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 329,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 330,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 331,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 332,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 333,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 334,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 335,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 336,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 337,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 338,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 339,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 340,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 341,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 342,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 343,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 344,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 345,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 346,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 347,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 348,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 349,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 350,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 351,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 352,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 353,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 354,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 355,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 356,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 357,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 358,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 359,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 360,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 361,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 362,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 363,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 364,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 365,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 366,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 367,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 368,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 369,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 370,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 371,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 372,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 373,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 374,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 375,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 376,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 377,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 378,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 379,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 380,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 381,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 382,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 383,
+      "type": "yes-or-no",
+      "precision": "D"
+    },
+    {
+      "id": 384,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 385,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 386,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 387,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 388,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 389,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 390,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 391,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 392,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 393,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 394,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 395,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 396,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 397,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 398,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 399,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 400,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 401,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 402,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 403,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 404,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 405,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 406,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 407,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 408,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 409,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 410,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 411,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 412,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 413,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 414,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 415,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 416,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 417,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 418,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 419,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 420,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 421,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 422,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 423,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 424,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 425,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 426,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 427,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 428,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 429,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 430,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 431,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 432,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 433,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 434,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 435,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 436,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 437,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 438,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 439,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 440,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 441,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 442,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 443,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 444,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 445,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 446,
+      "type": "yes-or-no",
+      "precision": "I can't answer the question based on the image provided."
+    },
+    {
+      "id": 447,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 448,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 449,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 450,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 451,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 452,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 453,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 454,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 455,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 456,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 457,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 458,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 459,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 460,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 461,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 462,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 463,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 464,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 465,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 466,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 467,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 468,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 469,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 470,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 471,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 472,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 473,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 474,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 475,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 476,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 477,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 478,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 479,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 480,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 481,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 482,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 483,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 484,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 485,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 486,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 487,
+      "type": "yes-or-no",
+      "precision": "I can't answer the question based on the image provided."
+    },
+    {
+      "id": 488,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 489,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 490,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 491,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 492,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 493,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 494,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 495,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 496,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 497,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 498,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 499,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 500,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 501,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 502,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 503,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 504,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 505,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 506,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 507,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 508,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 509,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 510,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 511,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 512,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 513,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 514,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 515,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 516,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 517,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 518,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 519,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 520,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 521,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 522,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 523,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 524,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 525,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 526,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 527,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 528,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 529,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 530,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 531,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 532,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 533,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 534,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 535,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 536,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 537,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 538,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 539,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 540,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 541,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 542,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 543,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 544,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 545,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 546,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 547,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 548,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 549,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 550,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 551,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 552,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 553,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 554,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 555,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 556,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 557,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 558,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 559,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 560,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 561,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 562,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 563,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 564,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 565,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 566,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 567,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 568,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 569,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 570,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 571,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 572,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 573,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 574,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 575,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 576,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 577,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 578,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 579,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 580,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 581,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 582,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 583,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 584,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 585,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 586,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 587,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 588,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 589,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 590,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 591,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 592,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 593,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 594,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 595,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 596,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 597,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 598,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 599,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 600,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 601,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 602,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 603,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 604,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 605,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 606,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 607,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 608,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 609,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 610,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 611,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 612,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 613,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 614,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 615,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 616,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 617,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 618,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 619,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 620,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 621,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 622,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 623,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 624,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 625,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 626,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 627,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 628,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 629,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 630,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 631,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 632,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 633,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 634,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 635,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 636,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 637,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 638,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 639,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 640,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 641,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 642,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 643,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 644,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 645,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 646,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 647,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 648,
+      "type": "yes-or-no",
+      "precision": "C"
+    },
+    {
+      "id": 649,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 650,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 651,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 652,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 653,
+      "type": "yes-or-no",
+      "precision": "C"
+    },
+    {
+      "id": 654,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 655,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 656,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 657,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 658,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 659,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 660,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 661,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 662,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 663,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 664,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 665,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 666,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 667,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 668,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 669,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 670,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 671,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 672,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 673,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 674,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 675,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 676,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 677,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 678,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 679,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 680,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 681,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 682,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 683,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 684,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 685,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 686,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 687,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 688,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 689,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 690,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 691,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 692,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 693,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 694,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 695,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 696,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 697,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 698,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 699,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 700,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 701,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 702,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 703,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 704,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 705,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 706,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 707,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 708,
+      "type": "yes-or-no",
+      "precision": "I'm sorry, I can't assist with that."
+    },
+    {
+      "id": 709,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 710,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 711,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 712,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 713,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 714,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 715,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 716,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 717,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 718,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 719,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 720,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 721,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 722,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 723,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 724,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 725,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 726,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 727,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 728,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 729,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 730,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 731,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 732,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 733,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 734,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 735,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 736,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 737,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 738,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 739,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 740,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 741,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 742,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 743,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 744,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 745,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 746,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 747,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 748,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 749,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 750,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 751,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 752,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 753,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 754,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 755,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 756,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 757,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 758,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 759,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 760,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 761,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 762,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 763,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 764,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 765,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 766,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 767,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 768,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 769,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 770,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 771,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 772,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 773,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 774,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 775,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 776,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 777,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 778,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 779,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 780,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 781,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 782,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 783,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 784,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 785,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 786,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 787,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 788,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 789,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 790,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 791,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 792,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 793,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 794,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 795,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 796,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 797,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 798,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 799,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 800,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 801,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 802,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 803,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 804,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 805,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 806,
+      "type": "yes-or-no",
+      "precision": "C"
+    },
+    {
+      "id": 807,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 808,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 809,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 810,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 811,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 812,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 813,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 814,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 815,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 816,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 817,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 818,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 819,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 820,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 821,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 822,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 823,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 824,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 825,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 826,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 827,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 828,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 829,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 830,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 831,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 832,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 833,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 834,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 835,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 836,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 837,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 838,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 839,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 840,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 841,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 842,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 843,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 844,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 845,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 846,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 847,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 848,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 849,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 850,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 851,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 852,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 853,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 854,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 855,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 856,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 857,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 858,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 859,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 860,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 861,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 862,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 863,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 864,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 865,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 866,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 867,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 868,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 869,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 870,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 871,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 872,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 873,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 874,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 875,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 876,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 877,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 878,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 879,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 880,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 881,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 882,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 883,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 884,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 885,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 886,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 887,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 888,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 889,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 890,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 891,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 892,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 893,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 894,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 895,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 896,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 897,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 898,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 899,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 900,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 901,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 902,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 903,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 904,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 905,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 906,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 907,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 908,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 909,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 910,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 911,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 912,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 913,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 914,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 915,
+      "type": "yes-or-no",
+      "precision": "I'm sorry, I can't assist with that."
+    },
+    {
+      "id": 916,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 917,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 918,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 919,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 920,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 921,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 922,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 923,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 924,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 925,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 926,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 927,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 928,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 929,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 930,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 931,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 932,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 933,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 934,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 935,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 936,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 937,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 938,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 939,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 940,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 941,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 942,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 943,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 944,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 945,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 946,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 947,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 948,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 949,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 950,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 951,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 952,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 953,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 954,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 955,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 956,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 957,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 958,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 959,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 960,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 961,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 962,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 963,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 964,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 965,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 966,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 967,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 968,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 969,
+      "type": "yes-or-no",
+      "precision": "C"
+    },
+    {
+      "id": 970,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 971,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 972,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 973,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 974,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 975,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 976,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 977,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 978,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 979,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 980,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 981,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 982,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 983,
+      "type": "yes-or-no",
+      "precision": "I'm sorry, I can't answer that question based on the image provided."
+    },
+    {
+      "id": 984,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 985,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 986,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 987,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 988,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 989,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 990,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 991,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 992,
+      "type": "yes-or-no",
+      "precision": "I'm sorry, but I can't analyze the language and terminology in the image."
+    },
+    {
+      "id": 993,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 994,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 995,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 996,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 997,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 998,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 999,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 1000,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 1001,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 1002,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 1003,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 1004,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 1005,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 1006,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 1007,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 1008,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 1009,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 1010,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 1011,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 1012,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 1013,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 1014,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 1015,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 1016,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 1017,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 1018,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 1019,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 1020,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 1021,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 1022,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 1023,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 1024,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 1025,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 1026,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 1027,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 1028,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 1029,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 1030,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 1031,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 1032,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 1033,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 1034,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 1035,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 1036,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 1037,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 1038,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 1039,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 1040,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 1041,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 1042,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 1043,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 1044,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 1045,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 1046,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 1047,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 1048,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 1049,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 1050,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 1051,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 1052,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 1053,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 1054,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 1055,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 1056,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 1057,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 1058,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 1059,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 1060,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 1061,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 1062,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 1063,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 1064,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 1065,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 1066,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 1067,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 1068,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 1069,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 1070,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 1071,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 1072,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 1073,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 1074,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 1075,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 1076,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 1077,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 1078,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 1079,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 1080,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 1081,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 1082,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 1083,
+      "type": "how",
+      "precision": "D"
+    },
+    {
+      "id": 1084,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 1085,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 1086,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 1087,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 1088,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 1089,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 1090,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 1091,
+      "type": "what",
+      "precision": "A"
+    },
+    {
+      "id": 1092,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 1093,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 1094,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 1095,
+      "type": "what",
+      "precision": "C"
+    },
+    {
+      "id": 1096,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 1097,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 1098,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 1099,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 1100,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 1101,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 1102,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 1103,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 1104,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 1105,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 1106,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 1107,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 1108,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 1109,
+      "type": "how",
+      "precision": "A"
+    },
+    {
+      "id": 1110,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 1111,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 1112,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 1113,
+      "type": "how",
+      "precision": "C"
+    },
+    {
+      "id": 1114,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 1115,
+      "type": "what",
+      "precision": "D"
+    },
+    {
+      "id": 1116,
+      "type": "how",
+      "precision": "B"
+    },
+    {
+      "id": 1117,
+      "type": "yes-or-no",
+      "precision": "B"
+    },
+    {
+      "id": 1118,
+      "type": "what",
+      "precision": "B"
+    },
+    {
+      "id": 1119,
+      "type": "yes-or-no",
+      "precision": "A"
+    },
+    {
+      "id": 1120,
+      "type": "how",
+      "precision": "B"
+    }
+  ]
+}
