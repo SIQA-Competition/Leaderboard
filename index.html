@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SIQA Leaderboard</title>
+  <style>
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #24292e;
+      background-color: #ffffff;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 30px 15px;
+    }
+
+    h1, h2 {
+      margin-top: 1.2em;
+      margin-bottom: 0.8em;
+      font-weight: 600;
+      color: #24292e;
+      border-bottom: 1px solid #eaecef;
+      padding-bottom: 0.3em;
+    }
+
+    h1 {
+      font-size: 2em;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    blockquote {
+      margin: 1.2em 0;
+      padding: 0 1em;
+      color: #6a737d;
+      border-left: 0.25em solid #dfe2e5;
+      font-style: italic;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.4em 0;
+      display: block;
+      overflow-x: auto;
+      background-color: white;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 10px 12px;
+      text-align: left;
+      border: 1px solid #d0d7de;
+    }
+
+    th {
+      background-color: #f6f8fa;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 15px 8px;
+      }
+      h1 {
+        font-size: 1.6em;
+      }
+      table {
+        font-size: 0.9em;
+      }
+    }
+
+    footer {
+      margin-top: 2em;
+      color: #6a737d;
+      font-size: 0.95em;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <h1>🏆 SIQA Competition Leaderboard</h1>
+
+  <blockquote>
+    <p><strong>SIQA-U Weighting</strong>: Yes/No (20%), What (30%), How (50%)<br />
+    <strong>SIQA-S Score</strong>: Average of Perception and Knowledge (each: mean of SRCC &amp; PLCC)</p>
+  </blockquote>
+
+  <h2>🥇 Overall Ranking (Average of U and S)</h2>
+  <table>
+    <thead>
+      <tr><th>Rank</th><th>Team</th><th>Method</th><th>SIQA-U</th><th>SIQA-S</th><th>Combined</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Baseline</td><td>gpt-4o</td><td>42.79</td><td>77.57</td><td>60.18</td></tr>
+      <tr><td>2</td><td>NJU_SIQA_Team</td><td>siqa_model</td><td>–</td><td>88.24</td><td>44.12</td></tr>
+    </tbody>
+  </table>
+
+  <h2>🧠 SIQA-U Leaderboard (Understanding)</h2>
+  <table>
+    <thead>
+      <tr><th>Rank</th><th>Team</th><th>Method</th><th>Yes/No ACC</th><th>What ACC</th><th>How ACC</th><th>Final Score</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Baseline</td><td>gpt-4o</td><td>44.47</td><td>62.57</td><td>30.26</td><td>42.79</td></tr>
+    </tbody>
+  </table>
+
+  <h2>📊 SIQA-S Leaderboard (Scoring)</h2>
+  <table>
+    <thead>
+      <tr><th>Rank</th><th>Team</th><th>Method</th><th>Perception (SRCC / PLCC)</th><th>Knowledge (SRCC / PLCC)</th><th>Final Score</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>NJU_SIQA_Team</td><td>siqa_model</td><td>0.8763 / 0.9071</td><td>0.8514 / 0.8948</td><td>88.24</td></tr>
+      <tr><td>2</td><td>Baseline</td><td>gpt-4o</td><td>0.7071 / 0.7068</td><td>0.8366 / 0.8521</td><td>77.57</td></tr>
+    </tbody>
+  </table>
+
+  <blockquote>
+    <p>🕒 Last updated: 2026-03-17 11:49 UTC</p>
+  </blockquote>
+
+  <footer>
+    Built with ❤️ for the SIQA Challenge
+  </footer>
+</body>
+</html>
