@@ -1,0 +1,49 @@
+name: 🔒 Submission Permission Guard
+
+on:
+  push:
+    branches: ["master"]
+
+# This job runs first and can block deployment if policy is violated
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get changed files
+        id: files
+        run: |
+          CHANGED=$(git diff --name-only HEAD~1 HEAD)
+          echo "changed_files<<EOF" >> $GITHUB_OUTPUT
+          echo "$CHANGED" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Enforce submissions-only policy
+        run: |
+          allowed=0
+          while IFS= read -r file; do
+            if [[ -n "$file" ]]; then
+              if [[ "$file" == submissions/* ]]; then
+                allowed=$((allowed + 1))
+              elif [[ "$file" == .github/workflows/permission-guard.yml ]]; then
+                # Allow updating this guard itself
+                allowed=$((allowed + 1))
+              else
+                echo "❌ ILLEGAL CHANGE: $file"
+                echo "⚠️ You may ONLY modify files in 'submissions/'"
+                exit 1
+              fi
+            fi
+          done <<< "${{ steps.files.outputs.changed_files }}"
+
+          if [ $allowed -eq 0 ]; then
+            echo "ℹ️ No submission changes detected. Skipping leaderboard update."
+            # Optional: exit 0 or 78 (neutral)
+            exit 78  # GitHub "neutral" status
+          fi
+
+          echo "✅ All changes are in allowed directories."
