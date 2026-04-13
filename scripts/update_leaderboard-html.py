@@ -114,10 +114,13 @@ def escape_html(text):
 
 def main():
     gt = load_ground_truth()
+
+    # 1. 修改初始化结构：分别存储 U 和 S 的方法名
     teams = defaultdict(lambda: {
         "U": None,
         "S": None,
-        "method": ""
+        "method_U": "",  # 专门用于 SIQA-U 的方法名
+        "method_S": ""  # 专门用于 SIQA-S 的方法名
     })
 
     for file_path in sorted(glob.glob(os.path.join(SUBMISSIONS_DIR, "*.json"))):
@@ -127,20 +130,25 @@ def main():
             if not all(k in data for k in ["team", "track", "predictions"]):
                 print(f"⚠️ 跳过 {file_path}: 缺少必要字段")
                 continue
+
             team = data["team"].strip()
             track = data["track"].upper()
             method = data.get("method", "").strip()
             preds = data["predictions"]
+
             if track == "U":
                 result = evaluate_u(preds, gt["U"])
                 teams[team]["U"] = result
+                # 2. 修改赋值逻辑：只存入 U 的方法名
                 if method:
-                    teams[team]["method"] = method
+                    teams[team]["method_U"] = method
+
             elif track == "S":
                 result = evaluate_s(preds, gt["S"])
                 teams[team]["S"] = result
+                # 3. 修改赋值逻辑：只存入 S 的方法名
                 if method:
-                    teams[team]["method"] = method
+                    teams[team]["method_S"] = method
             else:
                 print(f"⚠️ 未知 track: {track}")
         except Exception as e:
@@ -154,23 +162,40 @@ def main():
         u_score = scores["U"]["score"] if scores["U"] else 0.0
         s_score = scores["S"]["score"] if scores["S"] else 0.0
         combined = (u_score + s_score) / 2 if (u_score > 0 or s_score > 0) else 0.0
+
+        # 注意：Overall 这里如果需要显示方法名，可以合并显示或留空
         overall_list.append({
             "team": escape_html(team),
-            "method": escape_html(scores["method"] or "–"),
+            "method": " / ".join(filter(None, [
+                escape_html(scores["method_U"] or ""),
+                escape_html(scores["method_S"] or "")
+            ])) or "–",
             "U": u_score,
             "S": s_score,
             "Combined": round(combined, 2)
         })
     overall_list.sort(key=lambda x: x["Combined"], reverse=True)
 
+    # --- SIQA-U 列表构建 ---
+    # 4. 修改 U 的列表构建：使用 method_U
     u_teams = [
-        {"team": escape_html(team), "method": escape_html(data["method"] or "–"), **data["U"]}
+        {
+            "team": escape_html(team),
+            "method": escape_html(data["method_U"] or "–"),  # 使用 U 的方法名
+            **data["U"]
+        }
         for team, data in teams.items() if data["U"]
     ]
     u_teams.sort(key=lambda x: x["score"], reverse=True)
 
+    # --- SIQA-S 列表构建 ---
+    # 5. 修改 S 的列表构建：使用 method_S
     s_teams = [
-        {"team": escape_html(team), "method": escape_html(data["method"] or "–"), **data["S"]}
+        {
+            "team": escape_html(team),
+            "method": escape_html(data["method_S"] or "–"),  # 使用 S 的方法名
+            **data["S"]
+        }
         for team, data in teams.items() if data["S"]
     ]
     s_teams.sort(key=lambda x: x["score"], reverse=True)
