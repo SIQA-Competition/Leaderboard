@@ -19,15 +19,15 @@ title: SIQA Leaderboard
 | 5 | Baseline | gpt-4o | 42.79 | 77.57 | 60.18 |
 | 6 | NJU_SIQA_Team | siqa_model | - | 88.24 | 44.12 |
 | 7 | CSQA | SIQA-MT | - | 86.57 | 43.28 |
-| 8 | DB_Team | DB_Model | 48.95 | - | 24.48 |
+| 8 | DB_Team | DB_Model | 51.88 | - | 25.94 |
 
 ## 💡 SIQA-U Leaderboard (Understanding)
 | Rank | Team | Method | Yes/No ACC | What ACC | How ACC | Final Score |
 |:----:|:-----|:-------|:----------:|:--------:|:-------:|:-----------:|
-| 1 | Tomcat | VLM | 58.68 | 83.71 | 28.21 | 50.95 |
-| 2 | leitinggaba | DS | 53.16 | 81.14 | 29.74 | 49.85 |
-| 3 | DoubleY | data | 56.32 | 81.14 | 27.95 | 49.58 |
-| 4 | DB_Team | DB_Model | 52.11 | 78.00 | 30.26 | 48.95 |
+| 1 | DB_Team | DB_Model | 53.95 | 78.86 | 34.87 | 51.88 |
+| 2 | Tomcat | VLM | 58.68 | 83.71 | 28.21 | 50.95 |
+| 3 | leitinggaba | DS | 53.16 | 81.14 | 29.74 | 49.85 |
+| 4 | DoubleY | data | 56.32 | 81.14 | 27.95 | 49.58 |
 | 5 | YWJC | gpt-5.4-pro-precision-match | 46.05 | 70.29 | 28.21 | 44.40 |
 | 6 | Baseline | gpt-4o | 44.47 | 62.57 | 30.26 | 42.79 |
 
@@ -42,4 +42,4 @@ title: SIQA Leaderboard
 | 6 | CSQA | SIQA-MT | 0.8462 / 0.8734 | 0.8571 / 0.8860 | 86.57 |
 | 7 | Baseline | gpt-4o | 0.7071 / 0.7068 | 0.8366 / 0.8521 | 77.57 |
 
-> 🕒 Last updated: 2026-04-24 03:00 UTC
+> 🕒 Last updated: 2026-04-24 09:25 UTC
